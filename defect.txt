@@ -1,0 +1,29 @@
+Web | Staging | Account Settings Page - Required fields are displayed in red even when the data is filled on "Are you sure you want to cancel" modal
+
+Launch the URL "staging.marvel.com"
+Login with valid MU credentials
+Navigate to Marvel Subscription on Account Settings Page
+Click on "Cancel Your Marvel Unlimited Subscription" hyperlink
+Navigate to "Are you sure you want to cancel" modal
+Click on "Cancel" button without filling any of the Required fields
+Observe that all the required fields are displayed in red
+Fill all the required fields and observe that required fields are still displayed in red.
+
+Expected Result: Required fields should not be displayed in red when the required fields are filled on "Are you sure you want to cancel"
+Actual Result: Required fields are displayed in red even when the data is filled on "Are you sure you want to cancel"
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Web | Staging | Account Settings Page - Dropdown options are displayed in red post selection on "Are you sure you want to cancel" modal
+
+Launch the URL "staging.marvel.com"
+Login with valid MU credentials
+Navigate to Marvel Subscription on Account Settings Page
+Click on "Cancel Your Marvel Unlimited Subscription" hyperlink
+Navigate to "Are you sure you want to cancel" modal
+Navigate to "Which other solution will you use now?" section
+Click on dropdown beside it and select any of the options "None or Other"
+Observe that Dropdown options are displayed in red.
+
+Expected Result: Dropdown options should not be displayed in red post selection
+Actual Result: Dropdown options are displayed in red post selection on "Are you sure you want to cancel" modal.
